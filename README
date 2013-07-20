@@ -1,0 +1,43 @@
+SimpleCardTemplate - a simple card templating tool
+---------------------------------------------------------
+
+This is really a set of two utilities:
+
+* SimpleCardTemplate.TemplateUtility
+
+This is a simple Windows Forms app that, if you point it at an 
+appropriate templates.js file in app.config, will let you visually set the regions of and properties for
+rendering of card data on templates.
+
+* SimpleCardTemplate.Console
+
+This is an example of how you can use templates.js data created in 
+SimpleCardTemplate.TemplateUtility to quickly render prototype cards to image files for printing.  It
+assumes that the data is in a database, with the following mappings:
+
+	templates.js property = database entity
+	-----------------------------------------
+	TemplateName = Name of Table in database
+	Regions.RegionName = Name of field in database
+
+If you prefer to get your data another way (XML document, Excel spreadsheet, OCR'd images of stone
+tablets), you'll have to take the code in SimpleCardTemplate.Console and retrofit it (or rewrite it
+entirely!) to suit your needs!
+
+*** FAQ ***
+
+* Will there be more support or features?
+
+No, I wrote this in an evening so that I could quickly create templates for a playtest of a card game
+that I'm making.  I don't anticipate improving it much further than it already is, and I don't apologize
+for the lack of extensibility/code quality.  This was throwaway code that someone asked me to post for
+their use: user beware!
+
+* You have example templates, how do I put in my own?
+
+Look in Config/templates.js - you'll see two existing examples.  Replace these with your own!
+Don't worry about the properties other than name and image path - just put in janky defaults, and
+use the TemplateUtility to populate them further.
+
+Note that you will need base images for your templates.  I included janky example images for my 
+janky example templates.  You'll want to replace these with your own.
