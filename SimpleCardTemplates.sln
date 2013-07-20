@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCardTemplates.Console", "SimpleCardTemplates.Console\SimpleCardTemplates.Console.csproj", "{49DA8448-7F38-44DA-B6BD-6FE4E2E3D341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCardTemplates.Controls", "SimpleCardTemplates.Controls\SimpleCardTemplates.Controls.csproj", "{37CDD4ED-BCC3-4E52-A9A3-9B6BA1BBE1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCardTemplates.TemplateUtility", "SimpleCardTemplates.TemplateUtility\SimpleCardTemplates.TemplateUtility.csproj", "{7A81EE29-116B-4421-AA5D-19B9DA79157E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCardTemplates.Engine", "SimpleCardTemplates.Engine\SimpleCardTemplates.Engine.csproj", "{E8C70B5B-9F35-42D5-938C-8FDDAD19C8E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49DA8448-7F38-44DA-B6BD-6FE4E2E3D341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DA8448-7F38-44DA-B6BD-6FE4E2E3D341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DA8448-7F38-44DA-B6BD-6FE4E2E3D341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DA8448-7F38-44DA-B6BD-6FE4E2E3D341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CDD4ED-BCC3-4E52-A9A3-9B6BA1BBE1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CDD4ED-BCC3-4E52-A9A3-9B6BA1BBE1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CDD4ED-BCC3-4E52-A9A3-9B6BA1BBE1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CDD4ED-BCC3-4E52-A9A3-9B6BA1BBE1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A81EE29-116B-4421-AA5D-19B9DA79157E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A81EE29-116B-4421-AA5D-19B9DA79157E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A81EE29-116B-4421-AA5D-19B9DA79157E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A81EE29-116B-4421-AA5D-19B9DA79157E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C70B5B-9F35-42D5-938C-8FDDAD19C8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C70B5B-9F35-42D5-938C-8FDDAD19C8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C70B5B-9F35-42D5-938C-8FDDAD19C8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C70B5B-9F35-42D5-938C-8FDDAD19C8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
